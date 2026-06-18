@@ -1,300 +1,320 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Arq. Magali Behar — Interiorismo</title>
-  <meta name="description" content="Arq. Magali Behar. Diseño de interiores residencial en Buenos Aires, Argentina. Transformamos espacios con estilo, calidez y personalidad." />
 
-  <!-- Barlow Semi Condensed como web fallback de Bahnschrift -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,200;0,300;0,400;1,200;1,300&display=swap" rel="stylesheet" />
-
-  <link rel="stylesheet" href="styles.css?v=20260618" />
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Magalí Behar — Arquitectura &amp; Interiorismo</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&amp;family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<style>
+        .material-symbols-outlined {
+            font-family: 'Material Symbols Outlined';
+            font-weight: normal;
+            font-style: normal;
+            font-size: 24px;
+            line-height: 1;
+            letter-spacing: normal;
+            text-transform: none;
+            display: inline-block;
+            white-space: nowrap;
+            word-wrap: normal;
+            direction: ltr;
+            -webkit-font-feature-settings: 'liga';
+            -webkit-font-smoothing: antialiased;
+        }
+    </style>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-tertiary-container": "#918266",
+                        "surface-bright": "#faf9f6",
+                        "surface-container-lowest": "#ffffff",
+                        "primary-container": "#1c1b1b",
+                        "on-surface": "#1a1c1a",
+                        "inverse-on-surface": "#f2f1ee",
+                        "surface": "#faf9f6",
+                        "on-secondary-fixed-variant": "#584324",
+                        "inverse-surface": "#2f312f",
+                        "error": "#ba1a1a",
+                        "surface-variant": "#e3e2e0",
+                        "surface-tint": "#5f5e5e",
+                        "on-tertiary-fixed-variant": "#51452d",
+                        "on-surface-variant": "#444748",
+                        "on-primary": "#ffffff",
+                        "tertiary-fixed-dim": "#d6c4a5",
+                        "primary-fixed": "#e5e2e1",
+                        "surface-container-high": "#e9e8e5",
+                        "secondary-fixed-dim": "#e1c299",
+                        "secondary": "#725a39",
+                        "secondary-fixed": "#feddb3",
+                        "on-secondary-container": "#765f3d",
+                        "tertiary-container": "#231a06",
+                        "on-primary-fixed": "#1c1b1b",
+                        "primary": "#000000",
+                        "surface-container-low": "#f4f3f1",
+                        "on-tertiary-fixed": "#231a06",
+                        "tertiary": "#000000",
+                        "on-primary-fixed-variant": "#474746",
+                        "surface-container": "#efeeeb",
+                        "secondary-container": "#fbdbb0",
+                        "error-container": "#ffdad6",
+                        "on-tertiary": "#ffffff",
+                        "inverse-primary": "#c8c6c5",
+                        "on-secondary-fixed": "#281801",
+                        "on-background": "#1a1c1a",
+                        "outline": "#747878",
+                        "tertiary-fixed": "#f3e0c0",
+                        "primary-fixed-dim": "#c8c6c5",
+                        "on-error": "#ffffff",
+                        "surface-dim": "#dbdad7",
+                        "surface-container-highest": "#e3e2e0",
+                        "background": "#faf9f6",
+                        "outline-variant": "#c4c7c7",
+                        "on-primary-container": "#858383",
+                        "on-error-container": "#93000a",
+                        "on-secondary": "#ffffff"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "stack-md": "24px",
+                        "container-max": "1440px",
+                        "margin-mobile": "24px",
+                        "margin-desktop": "64px",
+                        "stack-sm": "12px",
+                        "gutter": "32px",
+                        "section-gap": "160px"
+                    },
+                    "fontFamily": {
+                        "headline-lg": ["EB Garamond"],
+                        "display-lg": ["EB Garamond"],
+                        "body-md": ["Inter"],
+                        "display-lg-mobile": ["EB Garamond"],
+                        "headline-md": ["EB Garamond"],
+                        "body-lg": ["Inter"],
+                        "label-md": ["Inter"]
+                    },
+                    "fontSize": {
+                        "headline-lg": ["48px", { "lineHeight": "56px", "fontWeight": "400" }],
+                        "display-lg": ["80px", { "lineHeight": "88px", "letterSpacing": "-0.02em", "fontWeight": "400" }],
+                        "body-md": ["16px", { "lineHeight": "28px", "fontWeight": "400" }],
+                        "display-lg-mobile": ["48px", { "lineHeight": "52px", "letterSpacing": "-0.01em", "fontWeight": "400" }],
+                        "headline-md": ["32px", { "lineHeight": "40px", "fontWeight": "400" }],
+                        "body-lg": ["18px", { "lineHeight": "32px", "fontWeight": "400" }],
+                        "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.1em", "fontWeight": "600" }]
+                    }
+                }
+            }
+        }
+    </script>
 </head>
-<body>
-
-  <!-- ========== NAV ========== -->
-  <header class="nav" id="nav">
-    <div class="nav-inner">
-      <a href="#inicio" class="nav-logo" aria-label="Inicio — Arq. Magali Behar">
-        <span class="nav-logo-text">MB</span>
-      </a>
-      <nav class="nav-links" aria-label="Navegación principal">
-        <a href="#proyectos"   class="nav-link">Proyectos</a>
-        <a href="#servicios"   class="nav-link">Servicios</a>
-        <a href="#sobre-mi"    class="nav-link">Sobre mí</a>
-        <a href="#contacto"    class="nav-link">Contacto</a>
-      </nav>
-      <button class="nav-burger" aria-label="Abrir menú" aria-expanded="false">
-        <span></span><span></span>
-      </button>
-    </div>
-  </header>
-
-  <!-- Mobile menu -->
-  <div class="nav-mobile" id="navMobile" aria-hidden="true">
-    <button class="nm-close" aria-label="Cerrar menú">✕</button>
-    <nav>
-      <a href="#proyectos" class="nm-link">Proyectos</a>
-      <a href="#servicios" class="nm-link">Servicios</a>
-      <a href="#sobre-mi"  class="nm-link">Sobre mí</a>
-      <a href="#contacto"  class="nm-link">Contacto</a>
-    </nav>
-  </div>
-
-  <!-- ========== HERO ========== -->
-  <section class="hero" id="inicio">
-    <div class="hero-inner">
-      <div class="hero-tag reveal">Interiorismo · Buenos Aires, Argentina</div>
-      <h1 class="hero-title reveal">
-        <span class="hero-line">Arq. Magali</span>
-        <span class="hero-line hero-line--italic">Behar.</span>
-      </h1>
-      <p class="hero-sub reveal">Diseño de interiores que transforma espacios en hogares.</p>
-      <div class="hero-actions reveal">
-        <a href="#proyectos" class="btn-main">Ver proyectos</a>
-        <a href="#contacto"  class="btn-ghost">Contacto</a>
-      </div>
-    </div>
-    <div class="hero-scroll" aria-hidden="true">
-      <span class="scroll-line"></span>
-    </div>
-  </section>
-
-  <!-- ========== PROYECTOS ========== -->
-  <section class="proyectos" id="proyectos">
-    <div class="container">
-      <div class="section-head reveal">
-        <span class="section-label">01</span>
-        <h2 class="section-title">Proyectos</h2>
-        <p class="section-note">Las fotos de los proyectos reales se incorporan aquí. Por ahora se muestran los espacios disponibles.</p>
-      </div>
-
-      <div class="proj-grid">
-        <!-- Cada .proj-card es un proyecto. Reemplazá el img src con la foto real. -->
-        <article class="proj-card reveal" data-delay="0">
-          <div class="proj-img-wrap">
-            <img src="assets/img/proj-placeholder-1.jpg" alt="Proyecto 01" class="proj-img" onerror="this.parentElement.classList.add('no-img')" />
-            <div class="proj-placeholder-num">01</div>
-          </div>
-          <div class="proj-info">
-            <span class="proj-tag">Residencial</span>
-            <h3 class="proj-name">Proyecto 01</h3>
-            <p class="proj-location">Buenos Aires</p>
-          </div>
-        </article>
-
-        <article class="proj-card reveal" data-delay="1">
-          <div class="proj-img-wrap">
-            <img src="assets/img/proj-placeholder-2.jpg" alt="Proyecto 02" class="proj-img" onerror="this.parentElement.classList.add('no-img')" />
-            <div class="proj-placeholder-num">02</div>
-          </div>
-          <div class="proj-info">
-            <span class="proj-tag">Residencial</span>
-            <h3 class="proj-name">Proyecto 02</h3>
-            <p class="proj-location">Buenos Aires</p>
-          </div>
-        </article>
-
-        <article class="proj-card reveal" data-delay="2">
-          <div class="proj-img-wrap">
-            <img src="assets/img/proj-placeholder-3.jpg" alt="Proyecto 03" class="proj-img" onerror="this.parentElement.classList.add('no-img')" />
-            <div class="proj-placeholder-num">03</div>
-          </div>
-          <div class="proj-info">
-            <span class="proj-tag">Antes &amp; Después</span>
-            <h3 class="proj-name">Proyecto 03</h3>
-            <p class="proj-location">Buenos Aires</p>
-          </div>
-        </article>
-
-        <article class="proj-card reveal" data-delay="3">
-          <div class="proj-img-wrap">
-            <img src="assets/img/proj-placeholder-4.jpg" alt="Proyecto 04" class="proj-img" onerror="this.parentElement.classList.add('no-img')" />
-            <div class="proj-placeholder-num">04</div>
-          </div>
-          <div class="proj-info">
-            <span class="proj-tag">Residencial</span>
-            <h3 class="proj-name">Proyecto 04</h3>
-            <p class="proj-location">Buenos Aires</p>
-          </div>
-        </article>
-
-        <article class="proj-card reveal" data-delay="4">
-          <div class="proj-img-wrap">
-            <img src="assets/img/proj-placeholder-5.jpg" alt="Proyecto 05" class="proj-img" onerror="this.parentElement.classList.add('no-img')" />
-            <div class="proj-placeholder-num">05</div>
-          </div>
-          <div class="proj-info">
-            <span class="proj-tag">Dormitorio</span>
-            <h3 class="proj-name">Proyecto 05</h3>
-            <p class="proj-location">Buenos Aires</p>
-          </div>
-        </article>
-
-        <article class="proj-card reveal" data-delay="5">
-          <div class="proj-img-wrap">
-            <img src="assets/img/proj-placeholder-6.jpg" alt="Proyecto 06" class="proj-img" onerror="this.parentElement.classList.add('no-img')" />
-            <div class="proj-placeholder-num">06</div>
-          </div>
-          <div class="proj-info">
-            <span class="proj-tag">Antes &amp; Después</span>
-            <h3 class="proj-name">Proyecto 06</h3>
-            <p class="proj-location">Buenos Aires</p>
-          </div>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <!-- ========== SERVICIOS ========== -->
-  <section class="servicios" id="servicios">
-    <div class="container">
-      <div class="section-head reveal">
-        <span class="section-label">02</span>
-        <h2 class="section-title">Servicios</h2>
-      </div>
-      <div class="serv-list">
-        <div class="serv-item reveal">
-          <span class="serv-num">—</span>
-          <div class="serv-body">
-            <h3 class="serv-name">Diseño de Interiores</h3>
-            <p class="serv-desc">Propuesta integral para la transformación de espacios residenciales, desde la distribución hasta el mobiliario y los accesorios.</p>
-          </div>
-        </div>
-        <div class="serv-item reveal">
-          <span class="serv-num">—</span>
-          <div class="serv-body">
-            <h3 class="serv-name">Antes &amp; Después</h3>
-            <p class="serv-desc">Renovación de espacios existentes con inversión optimizada, maximizando el potencial de cada ambiente sin reformas estructurales.</p>
-          </div>
-        </div>
-        <div class="serv-item reveal">
-          <span class="serv-num">—</span>
-          <div class="serv-body">
-            <h3 class="serv-name">Paleta de Materiales y Color</h3>
-            <p class="serv-desc">Selección de revestimientos, textiles, colores y materiales para lograr una identidad visual coherente y atemporal.</p>
-          </div>
-        </div>
-        <div class="serv-item reveal">
-          <span class="serv-num">—</span>
-          <div class="serv-body">
-            <h3 class="serv-name">Asesoría Express</h3>
-            <p class="serv-desc">Consulta puntual para resolver dudas específicas, elegir una pieza de mobiliario o definir la distribución de un ambiente.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ========== SOBRE MÍ ========== -->
-  <section class="sobre-mi" id="sobre-mi">
-    <div class="container">
-      <div class="sm-grid">
-        <div class="sm-text">
-          <div class="section-head reveal">
-            <span class="section-label">03</span>
-            <h2 class="section-title">Sobre mí</h2>
-          </div>
-          <p class="sm-body reveal">Soy arquitecta especializada en interiorismo residencial, con base en Buenos Aires, Argentina. Creo en los espacios que se sienten antes de verse: ambientes donde la luz, la textura y el detalle generan bienestar desde el primer momento.</p>
-          <p class="sm-body reveal">Mi trabajo nace de escuchar. Cada proyecto comienza por entender cómo vivís, qué te inspira, y cómo querés sentirte en tu casa. El resultado siempre es tuyo.</p>
-          <a href="https://www.instagram.com/arq.magalibehar/" target="_blank" rel="noopener" class="sm-ig reveal">
-            @arq.magalibehar
-          </a>
-        </div>
-        <div class="sm-photo reveal">
-          <!-- Podés agregar una foto tuya aquí: assets/img/magali.jpg -->
-          <div class="sm-photo-placeholder">
-            <span>Foto</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ========== TESTIMONIOS ========== -->
-  <section class="testimonios" id="testimonios">
-    <div class="container">
-      <div class="section-head reveal">
-        <span class="section-label">04</span>
-        <h2 class="section-title">Testimonios</h2>
-        <p class="section-note">Los testimonios de clientes se muestran aquí cuando estén disponibles.</p>
-      </div>
-      <div class="test-grid">
-        <div class="test-card reveal">
-          <p class="test-quote">"Aquí va el testimonio de tu cliente. Una experiencia real de trabajo con Magali Behar."</p>
-          <div class="test-author">
-            <span class="test-name">Nombre Cliente</span>
-            <span class="test-city">Buenos Aires</span>
-          </div>
-        </div>
-        <div class="test-card reveal">
-          <p class="test-quote">"Segundo testimonio de cliente. Contá cómo fue la experiencia de trabajar con Magali."</p>
-          <div class="test-author">
-            <span class="test-name">Nombre Cliente</span>
-            <span class="test-city">Buenos Aires</span>
-          </div>
-        </div>
-        <div class="test-card reveal">
-          <p class="test-quote">"Tercer testimonio. Una frase corta y honesta que transmita el resultado del proyecto."</p>
-          <div class="test-author">
-            <span class="test-name">Nombre Cliente</span>
-            <span class="test-city">Buenos Aires</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ========== CONTACTO ========== -->
-  <section class="contacto" id="contacto">
-    <div class="container">
-      <div class="section-head reveal">
-        <span class="section-label">05</span>
-        <h2 class="section-title">Contacto</h2>
-      </div>
-      <div class="contacto-grid">
-        <div class="contacto-text">
-          <p class="contacto-lead reveal">¿Tenés un proyecto en mente? Hablemos.</p>
-          <p class="contacto-sub reveal">Respondó en menos de 24 horas. Sin compromiso.</p>
-        </div>
-        <div class="contacto-links reveal">
-          <a href="https://wa.me/5491158419529?text=Hola%20Magali%2C%20quer%C3%ADa%20consultarte%20sobre%20un%20proyecto%20de%20interiorismo." target="_blank" rel="noopener" class="contacto-item">
-            <span class="ci-label">WhatsApp</span>
-            <span class="ci-value">+54 9 11 5841-9529</span>
-          </a>
-          <a href="mailto:arq.magalibehar@gmail.com" class="contacto-item">
-            <span class="ci-label">Email</span>
-            <span class="ci-value">arq.magalibehar@gmail.com</span>
-          </a>
-          <a href="https://www.instagram.com/arq.magalibehar/" target="_blank" rel="noopener" class="contacto-item">
-            <span class="ci-label">Instagram</span>
-            <span class="ci-value">@arq.magalibehar</span>
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ========== FOOTER ========== -->
-  <footer class="footer">
-    <div class="container">
-      <div class="footer-inner">
-        <span class="footer-brand">Arq. Magali Behar</span>
-        <span class="footer-copy">© 2026 · Interiorismo · Buenos Aires</span>
-        <div class="footer-social">
-          <a href="https://www.instagram.com/arq.magalibehar/" target="_blank" rel="noopener">IG</a>
-          <a href="https://wa.me/5491158419529" target="_blank" rel="noopener">WA</a>
-          <a href="mailto:arq.magalibehar@gmail.com">Mail</a>
-        </div>
-      </div>
-    </div>
-  </footer>
-
-  <script defer src="lib/gsap.min.js?v=20260618"></script>
-  <script defer src="lib/ScrollTrigger.min.js?v=20260618"></script>
-  <script defer src="main.js?v=20260618"></script>
-</body>
-</html>
+<body class="bg-background text-on-surface font-body-md antialiased selection:bg-tertiary-fixed selection:text-primary">
+<!-- Shared Component: TopNavBar -->
+<header class="fixed top-0 w-full z-50 border-b border-outline-variant/30 bg-surface/90 backdrop-blur-md">
+<div class="flex justify-between items-center w-full px-margin-mobile md:px-margin-desktop py-6 max-w-container-max mx-auto">
+<!-- Brand -->
+<a class="font-headline-md text-headline-md font-bold tracking-tighter text-primary" href="#"><img alt="Magalí Behar Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC6a_GNInlALdunEunSIIoJfis_hPszHDFs4Bp4KyW_fFzTHp0ttCSw_t_01-iT-f7Rr1FS7tz5nw-qModLdex8uqBSLzjLakx4OdAijkgs9tmAuq3YquhccryIhlIT6sD91bHJ0bc2BTtoL7qcLKeUyp6RgVgdsRrcaUnj4dkxEO2W793tnpn0qu6izhMHJ0QvjlL42iJBSOy4Migglxoax_r1BYyIZBvo_w4KNF6Jiphsm5IcG-lqy-DlIr8PanxHSXp1nlIOKkdr"/></a>
+<!-- Navigation Links (Desktop) -->
+<nav class="hidden md:flex items-center gap-8">
+<a class="font-label-md text-label-md text-primary border-b border-primary pb-1 hover:text-primary transition-colors duration-300" href="#portfolio">Portfolio</a>
+<a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors duration-300" href="#services">Services</a>
+<a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors duration-300" href="#about">About</a>
+<a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors duration-300" href="#contact">Contact</a>
+</nav>
+<!-- Trailing Action -->
+<a class="hidden md:inline-flex bg-primary text-on-primary px-6 py-3 font-label-md text-label-md uppercase tracking-widest hover:bg-surface-tint transition-colors duration-300" href="#contact">
+                Inquire
+            </a>
+<!-- Mobile Menu Toggle -->
+<button class="md:hidden text-primary">
+<span class="material-symbols-outlined" data-icon="menu">menu</span>
+</button>
+</div>
+</header>
+<main>
+<!-- Hero Section -->
+<section class="relative min-h-[100vh] flex items-center justify-center w-full overflow-hidden pt-24">
+<!-- Background Image -->
+<div class="absolute inset-0 z-0 bg-cover bg-center" data-alt="A high-end, luxurious residential living room interior bathed in warm natural sunlight. Minimalist editorial aesthetic with soft off-white walls, natural stone textures, and understated contemporary furniture. The composition is wide and spacious, evoking a sense of quiet luxury and architectural refinement. Photorealistic, soft shadows, 8k resolution, warm and inviting atmosphere." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAOBrXxLL36sCY3u0B1qv2IwsBPMjZAj2yeIcaHdJRgpgDb66M7c-NTTH6aEAqrNofpmXhvXXZQj3EXMFzfr1txK4sP-SYOO_gOmMnbCCsFvTlMycmta1gdEpsyqbEFJ2CLxX2gmvJOG87PTnvvTR0FhJFORIhbg-ksC75EBN_RzH5LSOTTXCIryyIzpB1kJhaj-7eL5Sm39jyOyVXR4S9J73AOuOujg483mbuMmdjpdDROuW9lUfobMsPZwjvP3t-2O1kXfPJ9fKHg')"></div>
+<!-- Gradient Overlay for Contrast -->
+<div class="absolute inset-0 z-10 bg-gradient-to-b from-surface/40 via-surface/60 to-surface/90"></div>
+<!-- Content -->
+<div class="relative z-20 flex flex-col items-center justify-center text-center px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto mt-16">
+<!-- User requested Monogram Placeholder -->
+<img alt="Magalí Behar Monogram" class="w-48 md:w-64 mb-stack-md object-contain drop-shadow-sm" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC6a_GNInlALdunEunSIIoJfis_hPszHDFs4Bp4KyW_fFzTHp0ttCSw_t_01-iT-f7Rr1FS7tz5nw-qModLdex8uqBSLzjLakx4OdAijkgs9tmAuq3YquhccryIhlIT6sD91bHJ0bc2BTtoL7qcLKeUyp6RgVgdsRrcaUnj4dkxEO2W793tnpn0qu6izhMHJ0QvjlL42iJBSOy4Migglxoax_r1BYyIZBvo_w4KNF6Jiphsm5IcG-lqy-DlIr8PanxHSXp1nlIOKkdr"/>
+<h1 class="font-display-lg-mobile md:font-display-lg text-display-lg-mobile md:text-display-lg text-primary max-w-4xl mx-auto tracking-tight">
+                    Magalí Behar —<br/>Arquitectura &amp; Interiorismo
+                </h1>
+<p class="font-headline-md text-headline-md text-on-surface-variant mt-stack-md italic max-w-2xl mx-auto">
+                    Espacios que cuentan historias
+                </p>
+</div>
+</section>
+<!-- About Section -->
+<section class="py-section-gap px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto" id="about">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-gutter items-start">
+<div class="md:col-span-5 md:col-start-2 mb-12 md:mb-0">
+<h2 class="font-headline-lg text-headline-lg text-primary mb-stack-md">El Estudio</h2>
+<div class="w-16 h-[1px] bg-primary mb-8"></div>
+</div>
+<div class="md:col-span-5 text-on-surface-variant">
+<p class="font-body-lg text-body-lg mb-6 leading-relaxed">
+                        Con base en Buenos Aires, Argentina, el estudio de Magalí Behar se especializa en la creación de espacios residenciales y comerciales que equilibran la pureza arquitectónica con la calidez sensorial. 
+                    </p>
+<p class="font-body-lg text-body-lg leading-relaxed">
+                        Nuestra filosofía de diseño abraza una estética minimalista y editorial, donde cada material, textura y rayo de luz es cuidadosamente seleccionado para componer ambientes atemporales, funcionales y profundamente personales. Creemos en un lujo silencioso, manifestado a través de la excelencia en los detalles y la nobleza de los materiales.
+                    </p>
+</div>
+</div>
+</section>
+<!-- Services Section -->
+<section class="py-section-gap px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto bg-surface-container-low/50" id="services">
+<div class="text-center mb-24">
+<h2 class="font-headline-lg text-headline-lg text-primary mb-stack-md">Servicios</h2>
+<div class="w-16 h-[1px] bg-primary mx-auto"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+<!-- Service Card 1 -->
+<div class="group border border-outline-variant/50 bg-surface-bright p-8 hover:border-primary transition-colors duration-500 flex flex-col h-full">
+<div class="aspect-square w-full mb-8 overflow-hidden bg-surface-variant">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out" data-alt="A close-up architectural detail shot of an elegant interior material palette. Features warm travertine stone, brushed brass fixtures, and soft linen fabrics arranged perfectly. The lighting is soft and directional, highlighting the textures and high-quality craftsmanship. Minimalist, premium editorial style, neutral color palette." src="https://lh3.googleusercontent.com/aida-public/AB6AXuASTliZgTfFhftNtyKOtfDiBTHJeo2Zw5StEn6ILizyFkdeWmT7wcCcuJvXuwJSLHcEn8EiZ_Ukctvx2UBp_tIB9qe6Tr4I8nB0CYVMq6Rb4kyeNq8jwWOAC-Tr2RnyDInkDUoTBAifa_x4vSRYjflDHpPYr-Zo1HBJ22WWuaIZIVflbS9_EP5mkjvyqfErhArRqwGxTgm5f4HSq2hxs7llHjFr63wGGilN7IJBGnq9ur38smBcwYO6kOPUXJUdsblUoVThxG5LpdoE"/>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary mb-4">Diseño de Interiores</h3>
+<p class="font-body-md text-body-md text-on-surface-variant flex-grow">Curaduría de mobiliario, iluminación y materialidad para transformar espacios existentes en refugios sofisticados y habitables.</p>
+</div>
+<!-- Service Card 2 -->
+<div class="group border border-outline-variant/50 bg-surface-bright p-8 hover:border-primary transition-colors duration-500 flex flex-col h-full mt-0 md:mt-12">
+<div class="aspect-[4/5] w-full mb-8 overflow-hidden bg-surface-variant">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out" data-alt="A beautifully drafted architectural blueprint lying on a large oak drafting table, illuminated by a warm desk lamp. Next to it, a sleek black pen and a coffee cup. The scene is professional, precise, and sophisticated, reflecting a high-end architectural planning process. Soft depth of field, warm tones, editorial quality." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD8V4UPe77dwuvbyovHmwnx6oH34ztYGrvwKlpihBxuB_buZyxIlccdDxrQvx8xLMCygx4SKeiy_h8jS49gg0YrlEboFg_XtPGEaRVyf8e7sSogvv-5I15DChMQvZ8LpUgT-M-GUEnMvWyJ_7Yd2b5WqfV_A7yabyCl4-rP-ec_yvIdiI3r_jtw8Gw_W0OcUbEtu08aZD-4r5afeS2dRjnr7m6PKBsceBs-pc1bM6qpgWGTX13J32pVLe2n_K-WrQ9k16c_TAoHskxP"/>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary mb-4">Proyecto Integral</h3>
+<p class="font-body-md text-body-md text-on-surface-variant flex-grow">Desarrollo arquitectónico completo desde la concepción espacial hasta la dirección de obra, asegurando una ejecución impecable.</p>
+</div>
+<!-- Service Card 3 -->
+<div class="group border border-outline-variant/50 bg-surface-bright p-8 hover:border-primary transition-colors duration-500 flex flex-col h-full mt-0 md:mt-24">
+<div class="aspect-square w-full mb-8 overflow-hidden bg-surface-variant">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out" data-alt="Two pairs of hands interacting gracefully over a luxurious marble table, looking at architectural material samples. Soft, warm ambient light. The setting implies a high-end design consultation. The focus is on the sophisticated textures and the professional, collaborative atmosphere. Editorial, lifestyle photography, neutral tones." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBgzxYTDFTaH2in8eC5LBNG6l8LAbKBFzCmxvrwTl5QqdGkkRdr3XYKsXVMGvFsajmRg687OBz0UUOdMt-y9q-UWlKEU7ssxMumElL0dMK_-_s9sVzB3oBQc1z1QpjdIZA9RxTdONAbOvq5DzsDsANLw1_xkJir1WTqZF0GpPIto9AXTcgQVvy3OkoVPd0CjTqNh2P1D_a8XLEwUn_j4ezo6l97qQFDtd_eGcFMTgsg20pMcq-PC9qi4xk0UrRMJHWTeomgV4nItA3o"/>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary mb-4">Consultoría</h3>
+<p class="font-body-md text-body-md text-on-surface-variant flex-grow">Asesoramiento estratégico y estético para proyectos específicos, optimizando la distribución, el flujo lumínico y la coherencia visual.</p>
+</div>
+</div>
+</section>
+<!-- Portfolio Section -->
+<section class="py-section-gap px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto" id="portfolio">
+<div class="mb-24 flex flex-col md:flex-row md:items-end justify-between">
+<div>
+<h2 class="font-headline-lg text-headline-lg text-primary mb-stack-md">Obras Destacadas</h2>
+<div class="w-16 h-[1px] bg-primary"></div>
+</div>
+<a class="hidden md:inline-flex items-center gap-2 font-label-md text-label-md text-primary uppercase tracking-widest hover:text-on-surface-variant transition-colors pb-1 border-b border-primary hover:border-on-surface-variant mt-8 md:mt-0" href="#">
+                    Ver todos los proyectos <span class="material-symbols-outlined text-sm" data-icon="arrow_forward">arrow_forward</span>
+</a>
+</div>
+<!-- Asymmetric Editorial Grid -->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-gutter">
+<!-- Project 1 (Large) -->
+<div class="md:col-span-8 group cursor-pointer">
+<div class="w-full overflow-hidden bg-surface-variant mb-6 relative">
+<div class="absolute inset-0 bg-primary/10 opacity-0 group-hover:opacity-100 transition-opacity z-10"></div>
+<img class="w-full h-[60vh] object-cover group-hover:scale-[1.02] transition-transform duration-700 ease-in-out" data-alt="A breathtaking, expansive modern living room in a luxury home. Floor-to-ceiling windows letting in soft, warm afternoon light. The interior features a neutral palette with off-whites, warm sand tones, and a striking black marble fireplace. Furniture is low-profile and elegant. Shot from a wide angle, architectural photography style, immense detail." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAsS8r1EYVnUlqNi9XXHayzV9U7vUnOJXtQCENSJ8jCgxLslzlfWN8ObAhI6a9Lw1erLoRrWj-blGXNZkpiaO3HZxTZO0d0hFlElaPr3JQkxQTMbPcaQKAC3RHO1JD6tjFw7kuHsuXFxB64rPhteT61fbDnhZPsPENxt1zE5A1TKqUz_ZGH25Nj5xoce_hafs8hY3lO79aIfi5Zxmbm7nWkqV7QXjmSn7kXVBPdGY_qFkRC2QvdKF2J9eLT6hX4N0-pVkfKfyPozSt-"/>
+</div>
+<div class="flex justify-between items-start">
+<div>
+<h3 class="font-headline-md text-headline-md text-primary">Residencia Belgrano</h3>
+<p class="font-label-md text-label-md text-on-surface-variant uppercase mt-2">Proyecto Integral</p>
+</div>
+</div>
+</div>
+<!-- Project 2 (Portrait) -->
+<div class="md:col-span-4 group cursor-pointer mt-12 md:mt-32">
+<div class="w-full overflow-hidden bg-surface-variant mb-6 relative">
+<div class="absolute inset-0 bg-primary/10 opacity-0 group-hover:opacity-100 transition-opacity z-10"></div>
+<img class="w-full h-[70vh] object-cover group-hover:scale-[1.02] transition-transform duration-700 ease-in-out" data-alt="A minimalist, high-end kitchen design featuring sleek, handleless cabinetry in a warm, muted stone color. A large island made of exquisite Calacatta marble dominates the center. Warm under-cabinet lighting and sleek black matte fixtures add contrast. The style is pristine, uncluttered, and deeply sophisticated. Architectural digest quality." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAT5mYHVdN2hgSXAKwVbC6upj_dry037KysdEXkJKsICyV4ecErmXK1lzeytvRTbYd5ZuOQBR-LqGNADqf6qnwgKkoPm7Z5h-vshdJ9GmyQIiVCy7HzQd375g7Jy5MJkW1rnFQS_HR6b45hyIvwqoS3R1CnD7KF1AEucMnNRt4sQYSG_zAHhemZx7n3aSHxqiIZko0PP1hQgISqQcY8F1q8_OcNqleRgxBSiabFXMtVfJrwVFQSo-GYcwuh280q2E_dkAUeq-k44uei"/>
+</div>
+<div class="flex justify-between items-start">
+<div>
+<h3 class="font-headline-md text-headline-md text-primary">Cocina en Recoleta</h3>
+<p class="font-label-md text-label-md text-on-surface-variant uppercase mt-2">Diseño de Interiores</p>
+</div>
+</div>
+</div>
+<!-- Project 3 (Square/Portrait) -->
+<div class="md:col-span-5 group cursor-pointer mt-12 md:mt-24">
+<div class="w-full overflow-hidden bg-surface-variant mb-6 relative">
+<div class="absolute inset-0 bg-primary/10 opacity-0 group-hover:opacity-100 transition-opacity z-10"></div>
+<img class="w-full h-[60vh] object-cover group-hover:scale-[1.02] transition-transform duration-700 ease-in-out" data-alt="A serene, luxurious primary bedroom interior. The bed is dressed in high-thread-count white linens with a textured beige throw. Walls are painted in a soft, warm off-white. A large window offers soft, diffused natural light. The mood is tranquil, elegant, and timeless. Minimalist decor, premium textures, high-end editorial lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAUE-3_dRj5Q1klYpwoCXr0iWmf-wtZiIc6adMcnSe0sx26h_SAcKXGqOnyH6JLe8Ja7tXyBooYYmZf_LCWWGc-VhDYF262f3LCtstIOQJdctKgZJPUEZ4KnlUKgrzrl0baj39iRB9MrTxEC1X6n-zKUVpLilQIskL1mUBLuameSkIHNIi-Kr4ZyqjL0q3wAaK6pPSiQVkELH43nnVK2evxyhMncXO0-JK61jGF8l5Z6nTYOrdxSd59-ywL-L6vcaCJAy36EuAr63rY"/>
+</div>
+<div class="flex justify-between items-start">
+<div>
+<h3 class="font-headline-md text-headline-md text-primary">Casa de Campo</h3>
+<p class="font-label-md text-label-md text-on-surface-variant uppercase mt-2">Diseño y Estilismo</p>
+</div>
+</div>
+</div>
+<!-- Project 4 (Landscape offset) -->
+<div class="md:col-span-6 md:col-start-7 group cursor-pointer mt-12 md:mt-0">
+<div class="w-full overflow-hidden bg-surface-variant mb-6 relative">
+<div class="absolute inset-0 bg-primary/10 opacity-0 group-hover:opacity-100 transition-opacity z-10"></div>
+<img class="w-full h-[50vh] object-cover group-hover:scale-[1.02] transition-transform duration-700 ease-in-out" data-alt="A detail shot of a premium, spa-like bathroom interior. Features textured plaster walls in a warm sand tone, a freestanding matte white bathtub, and brushed bronze fixtures. The lighting is moody and relaxing, with soft shadows creating depth. The composition emphasizes luxury, tranquility, and high-end natural materials." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDAldekAQ2zYw_z8hJzjEvmmu8PrJnMEYxJpAkCLrCpXy1iUlM-hpUdVwDhv01YB_LwwVJrKwSQQPbn43z2UCjUYTVZuY0HO9oh905tU1U7TNG2TG9cel9pTjhxbd_ZeaSDnRzO0WqujV0fwZ_NEJlQSkVckt9zbe2goRbq0aApPtsOzTC3O1pvPdbdVIZV5HnGjatWoRIMDvpyh1vBAsJBwYCiQ0va-mtdw8IWsGUmABaJYYYye5M_VKRQBkQMnDz3F9MkfhOR2Bl-"/>
+</div>
+<div class="flex justify-between items-start">
+<div>
+<h3 class="font-headline-md text-headline-md text-primary">Spa Privado</h3>
+<p class="font-label-md text-label-md text-on-surface-variant uppercase mt-2">Remodelación</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Contact Section -->
+<section class="py-section-gap px-margin-mobile md:px-margin-desktop bg-tertiary-fixed w-full" id="contact">
+<div class="max-w-3xl mx-auto text-center">
+<h2 class="font-headline-lg text-headline-lg text-on-tertiary-fixed mb-12">Comencemos un proyecto</h2>
+<div class="space-y-8">
+<div>
+<p class="font-label-md text-label-md text-on-tertiary-fixed-variant uppercase tracking-widest mb-2">Email</p>
+<a class="font-headline-md text-headline-md text-on-tertiary-fixed hover:opacity-70 transition-opacity" href="mailto:arq.magalibehar@gmail.com">arq.magalibehar@gmail.com</a>
+</div>
+<div>
+<p class="font-label-md text-label-md text-on-tertiary-fixed-variant uppercase tracking-widest mb-2">WhatsApp</p>
+<a class="font-headline-md text-headline-md text-on-tertiary-fixed hover:opacity-70 transition-opacity" href="https://wa.me/5491158419529">+54 9 11 5841-9529</a>
+</div>
+<div>
+<p class="font-label-md text-label-md text-on-tertiary-fixed-variant uppercase tracking-widest mb-2">Instagram</p>
+<a class="font-headline-md text-headline-md text-on-tertiary-fixed hover:opacity-70 transition-opacity" href="https://instagram.com/arq.magalibehar">@arq.magalibehar</a>
+</div>
+</div>
+<div class="mt-16">
+<a class="inline-flex bg-primary text-on-primary px-8 py-4 font-label-md text-label-md uppercase tracking-widest hover:bg-surface-tint transition-colors duration-300" href="mailto:arq.magalibehar@gmail.com">
+                        Solicitar Presupuesto
+                    </a>
+</div>
+</div>
+</section>
+</main>
+<!-- Shared Component: Footer -->
+<footer class="w-full py-section-gap bg-tertiary-fixed flex flex-col items-center text-center space-y-stack-md px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto border-t border-on-tertiary-fixed-variant/10">
+<div class="font-headline-md text-headline-md text-on-tertiary-fixed mb-6"><img alt="Magalí Behar Logo" class="h-12 w-auto object-contain mx-auto" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC6a_GNInlALdunEunSIIoJfis_hPszHDFs4Bp4KyW_fFzTHp0ttCSw_t_01-iT-f7Rr1FS7tz5nw-qModLdex8uqBSLzjLakx4OdAijkgs9tmAuq3YquhccryIhlIT6sD91bHJ0bc2BTtoL7qcLKeUyp6RgVgdsRrcaUnj4dkxEO2W793tnpn0qu6izhMHJ0QvjlL42iJBSOy4Migglxoax_r1BYyIZBvo_w4KNF6Jiphsm5IcG-lqy-DlIr8PanxHSXp1nlIOKkdr"/></div>
+<div class="flex flex-wrap justify-center gap-8 mb-8">
+<a class="font-label-md text-label-md text-on-tertiary-fixed-variant hover:text-on-tertiary-fixed transition-colors duration-200" href="#">Instagram</a>
+<a class="font-label-md text-label-md text-on-tertiary-fixed-variant hover:text-on-tertiary-fixed transition-colors duration-200" href="#">LinkedIn</a>
+<a class="font-label-md text-label-md text-on-tertiary-fixed-variant hover:text-on-tertiary-fixed transition-colors duration-200" href="#">Pinterest</a>
+<a class="font-label-md text-label-md text-on-tertiary-fixed-variant hover:text-on-tertiary-fixed transition-colors duration-200" href="mailto:Studio@MagaliBehar.com">Studio@MagaliBehar.com</a>
+</div>
+<p class="font-body-md text-body-md text-on-tertiary-fixed-variant opacity-70">
+            © 2024 Magalí Behar. All rights reserved.
+        </p>
+</footer>
+</body></html>
