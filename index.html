@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Arq. Magali Behar — Interiorismo</title>
+  <meta name="description" content="Arq. Magali Behar. Diseño de interiores residencial en Buenos Aires, Argentina. Transformamos espacios con estilo, calidez y personalidad." />
+
+  <!-- Barlow Semi Condensed como web fallback de Bahnschrift -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,200;0,300;0,400;1,200;1,300&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css?v=20260618" />
+</head>
+<body>
+
+  <!-- ========== NAV ========== -->
+  <header class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#inicio" class="nav-logo" aria-label="Inicio — Arq. Magali Behar">
+        <span class="nav-logo-text">MB</span>
+      </a>
+      <nav class="nav-links" aria-label="Navegación principal">
+        <a href="#proyectos"   class="nav-link">Proyectos</a>
+        <a href="#servicios"   class="nav-link">Servicios</a>
+        <a href="#sobre-mi"    class="nav-link">Sobre mí</a>
+        <a href="#contacto"    class="nav-link">Contacto</a>
+      </nav>
+      <button class="nav-burger" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile menu -->
+  <div class="nav-mobile" id="navMobile" aria-hidden="true">
+    <button class="nm-close" aria-label="Cerrar menú">✕</button>
+    <nav>
+      <a href="#proyectos" class="nm-link">Proyectos</a>
+      <a href="#servicios" class="nm-link">Servicios</a>
+      <a href="#sobre-mi"  class="nm-link">Sobre mí</a>
+      <a href="#contacto"  class="nm-link">Contacto</a>
+    </nav>
+  </div>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="inicio">
+    <div class="hero-inner">
+      <div class="hero-tag reveal">Interiorismo · Buenos Aires, Argentina</div>
+      <h1 class="hero-title reveal">
+        <span class="hero-line">Arq. Magali</span>
+        <span class="hero-line hero-line--italic">Behar.</span>
+      </h1>
+      <p class="hero-sub reveal">Diseño de interiores que transforma espacios en hogares.</p>
+      <div class="hero-actions reveal">
+        <a href="#proyectos" class="btn-main">Ver proyectos</a>
+        <a href="#contacto"  class="btn-ghost">Contacto</a>
+      </div>
+    </div>
+    <div class="hero-scroll" aria-hidden="true">
+      <span class="scroll-line"></span>
+    </div>
+  </section>
+
+  <!-- ========== PROYECTOS ========== -->
+  <section class="proyectos" id="proyectos">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-label">01</span>
+        <h2 class="section-title">Proyectos</h2>
+        <p class="section-note">Las fotos de los proyectos reales se incorporan aquí. Por ahora se muestran los espacios disponibles.</p>
+      </div>
+
+      <div class="proj-grid">
+        <!-- Cada .proj-card es un proyecto. Reemplazá el img src con la foto real. -->
+        <article class="proj-card reveal" data-delay="0">
+          <div class="proj-img-wrap">
+            <img src="assets/img/proj-placeholder-1.jpg" alt="Proyecto 01" class="proj-img" onerror="this.parentElement.classList.add('no-img')" />
+            <div class="proj-placeholder-num">01</div>
+          </div>
+          <div class="proj-info">
+            <span class="proj-tag">Residencial</span>
+            <h3 class="proj-name">Proyecto 01</h3>
+            <p class="proj-location">Buenos Aires</p>
+          </div>
+        </article>
+
+        <article class="proj-card reveal" data-delay="1">
+          <div class="proj-img-wrap">
+            <img src="assets/img/proj-placeholder-2.jpg" alt="Proyecto 02" class="proj-img" onerror="this.parentElement.classList.add('no-img')" />
+            <div class="proj-placeholder-num">02</div>
+          </div>
+          <div class="proj-info">
+            <span class="proj-tag">Residencial</span>
+            <h3 class="proj-name">Proyecto 02</h3>
+            <p class="proj-location">Buenos Aires</p>
+          </div>
+        </article>
+
+        <article class="proj-card reveal" data-delay="2">
+          <div class="proj-img-wrap">
+            <img src="assets/img/proj-placeholder-3.jpg" alt="Proyecto 03" class="proj-img" onerror="this.parentElement.classList.add('no-img')" />
+            <div class="proj-placeholder-num">03</div>
+          </div>
+          <div class="proj-info">
+            <span class="proj-tag">Antes &amp; Después</span>
+            <h3 class="proj-name">Proyecto 03</h3>
+            <p class="proj-location">Buenos Aires</p>
+          </div>
+        </article>
+
+        <article class="proj-card reveal" data-delay="3">
+          <div class="proj-img-wrap">
+            <img src="assets/img/proj-placeholder-4.jpg" alt="Proyecto 04" class="proj-img" onerror="this.parentElement.classList.add('no-img')" />
+            <div class="proj-placeholder-num">04</div>
+          </div>
+          <div class="proj-info">
+            <span class="proj-tag">Residencial</span>
+            <h3 class="proj-name">Proyecto 04</h3>
+            <p class="proj-location">Buenos Aires</p>
+          </div>
+        </article>
+
+        <article class="proj-card reveal" data-delay="4">
+          <div class="proj-img-wrap">
+            <img src="assets/img/proj-placeholder-5.jpg" alt="Proyecto 05" class="proj-img" onerror="this.parentElement.classList.add('no-img')" />
+            <div class="proj-placeholder-num">05</div>
+          </div>
+          <div class="proj-info">
+            <span class="proj-tag">Dormitorio</span>
+            <h3 class="proj-name">Proyecto 05</h3>
+            <p class="proj-location">Buenos Aires</p>
+          </div>
+        </article>
+
+        <article class="proj-card reveal" data-delay="5">
+          <div class="proj-img-wrap">
+            <img src="assets/img/proj-placeholder-6.jpg" alt="Proyecto 06" class="proj-img" onerror="this.parentElement.classList.add('no-img')" />
+            <div class="proj-placeholder-num">06</div>
+          </div>
+          <div class="proj-info">
+            <span class="proj-tag">Antes &amp; Después</span>
+            <h3 class="proj-name">Proyecto 06</h3>
+            <p class="proj-location">Buenos Aires</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SERVICIOS ========== -->
+  <section class="servicios" id="servicios">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-label">02</span>
+        <h2 class="section-title">Servicios</h2>
+      </div>
+      <div class="serv-list">
+        <div class="serv-item reveal">
+          <span class="serv-num">—</span>
+          <div class="serv-body">
+            <h3 class="serv-name">Diseño de Interiores</h3>
+            <p class="serv-desc">Propuesta integral para la transformación de espacios residenciales, desde la distribución hasta el mobiliario y los accesorios.</p>
+          </div>
+        </div>
+        <div class="serv-item reveal">
+          <span class="serv-num">—</span>
+          <div class="serv-body">
+            <h3 class="serv-name">Antes &amp; Después</h3>
+            <p class="serv-desc">Renovación de espacios existentes con inversión optimizada, maximizando el potencial de cada ambiente sin reformas estructurales.</p>
+          </div>
+        </div>
+        <div class="serv-item reveal">
+          <span class="serv-num">—</span>
+          <div class="serv-body">
+            <h3 class="serv-name">Paleta de Materiales y Color</h3>
+            <p class="serv-desc">Selección de revestimientos, textiles, colores y materiales para lograr una identidad visual coherente y atemporal.</p>
+          </div>
+        </div>
+        <div class="serv-item reveal">
+          <span class="serv-num">—</span>
+          <div class="serv-body">
+            <h3 class="serv-name">Asesoría Express</h3>
+            <p class="serv-desc">Consulta puntual para resolver dudas específicas, elegir una pieza de mobiliario o definir la distribución de un ambiente.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SOBRE MÍ ========== -->
+  <section class="sobre-mi" id="sobre-mi">
+    <div class="container">
+      <div class="sm-grid">
+        <div class="sm-text">
+          <div class="section-head reveal">
+            <span class="section-label">03</span>
+            <h2 class="section-title">Sobre mí</h2>
+          </div>
+          <p class="sm-body reveal">Soy arquitecta especializada en interiorismo residencial, con base en Buenos Aires, Argentina. Creo en los espacios que se sienten antes de verse: ambientes donde la luz, la textura y el detalle generan bienestar desde el primer momento.</p>
+          <p class="sm-body reveal">Mi trabajo nace de escuchar. Cada proyecto comienza por entender cómo vivís, qué te inspira, y cómo querés sentirte en tu casa. El resultado siempre es tuyo.</p>
+          <a href="https://www.instagram.com/arq.magalibehar/" target="_blank" rel="noopener" class="sm-ig reveal">
+            @arq.magalibehar
+          </a>
+        </div>
+        <div class="sm-photo reveal">
+          <!-- Podés agregar una foto tuya aquí: assets/img/magali.jpg -->
+          <div class="sm-photo-placeholder">
+            <span>Foto</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== TESTIMONIOS ========== -->
+  <section class="testimonios" id="testimonios">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-label">04</span>
+        <h2 class="section-title">Testimonios</h2>
+        <p class="section-note">Los testimonios de clientes se muestran aquí cuando estén disponibles.</p>
+      </div>
+      <div class="test-grid">
+        <div class="test-card reveal">
+          <p class="test-quote">"Aquí va el testimonio de tu cliente. Una experiencia real de trabajo con Magali Behar."</p>
+          <div class="test-author">
+            <span class="test-name">Nombre Cliente</span>
+            <span class="test-city">Buenos Aires</span>
+          </div>
+        </div>
+        <div class="test-card reveal">
+          <p class="test-quote">"Segundo testimonio de cliente. Contá cómo fue la experiencia de trabajar con Magali."</p>
+          <div class="test-author">
+            <span class="test-name">Nombre Cliente</span>
+            <span class="test-city">Buenos Aires</span>
+          </div>
+        </div>
+        <div class="test-card reveal">
+          <p class="test-quote">"Tercer testimonio. Una frase corta y honesta que transmita el resultado del proyecto."</p>
+          <div class="test-author">
+            <span class="test-name">Nombre Cliente</span>
+            <span class="test-city">Buenos Aires</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACTO ========== -->
+  <section class="contacto" id="contacto">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-label">05</span>
+        <h2 class="section-title">Contacto</h2>
+      </div>
+      <div class="contacto-grid">
+        <div class="contacto-text">
+          <p class="contacto-lead reveal">¿Tenés un proyecto en mente? Hablemos.</p>
+          <p class="contacto-sub reveal">Respondó en menos de 24 horas. Sin compromiso.</p>
+        </div>
+        <div class="contacto-links reveal">
+          <a href="https://wa.me/5491158419529?text=Hola%20Magali%2C%20quer%C3%ADa%20consultarte%20sobre%20un%20proyecto%20de%20interiorismo." target="_blank" rel="noopener" class="contacto-item">
+            <span class="ci-label">WhatsApp</span>
+            <span class="ci-value">+54 9 11 5841-9529</span>
+          </a>
+          <a href="mailto:arq.magalibehar@gmail.com" class="contacto-item">
+            <span class="ci-label">Email</span>
+            <span class="ci-value">arq.magalibehar@gmail.com</span>
+          </a>
+          <a href="https://www.instagram.com/arq.magalibehar/" target="_blank" rel="noopener" class="contacto-item">
+            <span class="ci-label">Instagram</span>
+            <span class="ci-value">@arq.magalibehar</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <span class="footer-brand">Arq. Magali Behar</span>
+        <span class="footer-copy">© 2026 · Interiorismo · Buenos Aires</span>
+        <div class="footer-social">
+          <a href="https://www.instagram.com/arq.magalibehar/" target="_blank" rel="noopener">IG</a>
+          <a href="https://wa.me/5491158419529" target="_blank" rel="noopener">WA</a>
+          <a href="mailto:arq.magalibehar@gmail.com">Mail</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script defer src="lib/gsap.min.js?v=20260618"></script>
+  <script defer src="lib/ScrollTrigger.min.js?v=20260618"></script>
+  <script defer src="main.js?v=20260618"></script>
+</body>
+</html>
